@@ -1,7 +1,12 @@
 library utils_flutter;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'dart:convert';
+import 'dart:typed_data';
+import 'dart:math' as math;
+
+import 'package:convert/convert.dart';
+import 'package:decimal/decimal.dart';
+import 'package:intl/intl.dart';
+
+part './number/byte_utils.dart';
+part './number/number_utils.dart';
